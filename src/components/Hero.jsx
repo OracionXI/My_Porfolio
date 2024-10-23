@@ -36,13 +36,12 @@ const Hero = () => {
             }}
           />
         </div>
-        <div className="absolute top-[250px] mx-auto hidden lg:block">
+        <div className="absolute top-[250px] mx-auto hidden md:block">
           <img
-            className="object-contain"
+            className="object-contain md:w-[80vw]"
             src={water}
             alt="water"
             style={{
-              width: "60vw",
               transform: "rotate(-40deg)",
             }}
           />
